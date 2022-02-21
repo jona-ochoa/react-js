@@ -15,7 +15,7 @@ class MyDocument extends Document {
 
     // Run the parent `getInitialProps`, it now includes the custom `renderPage`
     const initialProps = await Document.getInitialProps(ctx)
-
+   
     return initialProps
   }
 
